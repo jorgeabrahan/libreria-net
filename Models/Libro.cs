@@ -25,5 +25,6 @@ public class Libro
   public int Paginas { get; set; }
 
   public virtual Autor? Autor { get; set; }
+
   public virtual Genero? Genero { get; set; }
 }
