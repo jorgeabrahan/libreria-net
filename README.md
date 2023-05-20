@@ -1,3 +1,3 @@
-# REST API Libreria
+# REST API Library
 
-Proyecto base para backend utilizando entity framework en .net 7
+Library project built using C#, microsoft entity framework .net 7, Docker, Azure, Insomnia, and SQL
