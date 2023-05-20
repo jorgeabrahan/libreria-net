@@ -10,7 +10,6 @@ public class Libro
 
   [ForeignKey("AutorId")]
   public Guid AutorId { get; set; }
-
   [ForeignKey("GeneroId")]
   public Guid GeneroId { get; set; }
 
@@ -25,6 +24,5 @@ public class Libro
   public int Paginas { get; set; }
 
   public virtual Autor? Autor { get; set; }
-
   public virtual Genero? Genero { get; set; }
 }
